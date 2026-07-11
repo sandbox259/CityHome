@@ -1,0 +1,6 @@
+# Copy to .dev.vars for local `wrangler dev` / `opennextjs-cloudflare preview` runs.
+# Do not commit the real .dev.vars file.
+
+RESEND_API_KEY=
+TURNSTILE_SECRET_KEY=
+CONTACT_RECIPIENT_EMAIL=hello@cityhomesbyaashiyaanaa.com

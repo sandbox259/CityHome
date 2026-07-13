@@ -94,7 +94,7 @@ export default function HomePage() {
         </section>
 
         {/* Why Choose Aashiyaanaa */}
-        <section className="container-editorial py-24 md:py-32">
+        <section className="container-editorial mt-24 md:mt-32">
           <SectionHeading eyebrow="Why Aashiyaanaa" title="What sets a stay apart" align="center" className="mx-auto mb-16" />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
             {VALUE_PROPS.map((prop) => (

@@ -8,6 +8,7 @@ import { MobileMenu } from "./MobileMenu";
 import Image from "next/image";
 
 const NAV_LINKS = [
+  { href: "/", label: "Home" },
   { href: "/stays", label: "Stays" },
   { href: "/villas", label: "Villas" },
   { href: "/apartments", label: "Apartments" },

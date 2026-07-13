@@ -26,7 +26,24 @@ export const metadata: Metadata = {
   },
   description:
     "Premium villas, apartments and curated stays across Mumbai, Lonavala and Pawna Lake, thoughtfully chosen for weekends, celebrations and city trips.",
-  openGraph: {
+    icons: {
+    icon: [
+      {
+        url: '/logo_av.png',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/logo_av.png',
+        media: '(prefers-color-scheme: dark)',
+      },
+      {
+        url: '/logo_av.png',
+        type: 'image/svg+xml',
+      },
+    ],
+    apple: '/logo_av.png',
+  },
+    openGraph: {
     type: "website",
     siteName: "City Homes by Aashiyaanaa",
     title: "City Homes by Aashiyaanaa | Premium Villas & City Apartments",

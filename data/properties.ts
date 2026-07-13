@@ -736,11 +736,11 @@ export const properties: Property[] = [
     // supplied — do not populate until confirmed.
     nearbyPlaces: [],
     images: [
-      { key: "properties/farm-ville/farm-2.jpg", alt: "Private pool at Farm Ville by Aashiyaanaa", width: 1600, height: 1067 },
-      { key: "properties/farm-ville/farm-3.jpg", alt: "Games room at Farm Ville by Aashiyaanaa", width: 1600, height: 1067 },
-      { key: "properties/farm-ville/farm-4.jpg", alt: "Bedroom at Farm Ville by Aashiyaanaa", width: 1600, height: 1067 },
-      { key: "properties/farm-ville/farm-5.jpg", alt: "Bedroom at Farm Ville by Aashiyaanaa", width: 1600, height: 1067 },
-      { key: "properties/farm-ville/farm-6.jpg", alt: "Bedroom at Farm Ville by Aashiyaanaa", width: 1600, height: 1067 },
+      { key: "properties/farm-ville/farm-2.jpeg", alt: "Private pool at Farm Ville by Aashiyaanaa", width: 1600, height: 1067 },
+      { key: "properties/farm-ville/farm-3.jpeg", alt: "Games room at Farm Ville by Aashiyaanaa", width: 1600, height: 1067 },
+      { key: "properties/farm-ville/farm-4.jpeg", alt: "Bedroom at Farm Ville by Aashiyaanaa", width: 1600, height: 1067 },
+      { key: "properties/farm-ville/farm-5.jpeg", alt: "Bedroom at Farm Ville by Aashiyaanaa", width: 1600, height: 1067 },
+      { key: "properties/farm-ville/farm-6.jpeg", alt: "Bedroom at Farm Ville by Aashiyaanaa", width: 1600, height: 1067 },
 
     ],
     heroImage: { key: "properties/farm-ville/farm-1.jpg", alt: "Farm Ville by Aashiyaanaa, Kamshet, Lonavala", width: 1920, height: 1280 },

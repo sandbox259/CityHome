@@ -1,7 +1,13 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "city-homes-by-aashiyaanaa",
+  "name": "city-homes-media",
   "main": ".open-next/worker.js",
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true
+    }
+  },
   "compatibility_date": "2025-01-01",
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
@@ -9,7 +15,7 @@
     "binding": "ASSETS"
   },
   "vars": {
-    "NEXT_PUBLIC_R2_IMAGE_BASE_URL": "https://images.cityhomesbyaashiyaanaa.com",
+    "NEXT_PUBLIC_R2_IMAGE_BASE_URL": "https://pub-c2c6364d6e774003a90aa143883c1c33.r2.dev",
     "NEXT_PUBLIC_WHATSAPP_NUMBER": "911234567890",
     "CONTACT_RECIPIENT_EMAIL": "hello@cityhomesbyaashiyaanaa.com"
   }

@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "city-homes-media",
+  "name": "cityhome",
   "main": ".open-next/worker.js",
   "observability": {
     "logs": {

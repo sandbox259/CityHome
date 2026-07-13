@@ -14,10 +14,10 @@ import { testimonials } from "@/data/testimonials";
 import { r2ImageUrl, CARD_SIZES } from "@/lib/images";
 
 const EXPERIENCES = [
-  { title: "Weekend Escapes", tag: "weekend-escape" as const, imageKey: "home/experience-weekend.jpg" },
-  { title: "City Stays", tag: "city-stay" as const, imageKey: "home/experience-city.jpg" },
-  { title: "Group Getaways", tag: "group-getaway" as const, imageKey: "home/experience-group.jpg" },
-  { title: "Couple-Friendly Stays", tag: "couple-friendly" as const, imageKey: "home/experience-couple.jpg" },
+  { title: "Weekend Escapes", tag: "weekend-escape" as const, imageKey: "properties/arzen/arzen-6.jpg" },
+  { title: "City Stays", tag: "city-stay" as const, imageKey: "properties/elite-apartment/ELITE_13.jpg" },
+  { title: "Group Getaways", tag: "group-getaway" as const, imageKey: "properties/grand/grand-12.jpeg" },
+  { title: "Couple-Friendly Stays", tag: "couple-friendly" as const, imageKey: "properties/suites/suites-4.jpg" },
 ];
 
 const VALUE_PROPS = [

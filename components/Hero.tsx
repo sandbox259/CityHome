@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section className="relative h-[92vh] min-h-[640px] w-full overflow-hidden">
       <Image
-        src={r2ImageUrl("home/hero.jpg")}
+        src={r2ImageUrl("home/hero.jpeg")}
         alt="A sunlit villa terrace overlooking the hills near Lonavala"
         fill
         priority
@@ -22,7 +22,7 @@ export function Hero() {
         <h1 className="font-display text-white text-5xl sm:text-6xl md:text-7xl leading-[1.05] max-w-3xl text-balance">
           Exceptional Stays. Thoughtfully Curated.
         </h1>
-        <p className="mt-6 text-white/85 text-base md:text-lg max-w-xl leading-relaxed">
+        <p className="mt-6 text-white/85 text-bold md:text-lg max-w-xl leading-relaxed">
           Discover premium villas and city apartments designed for
           unforgettable escapes.
         </p>

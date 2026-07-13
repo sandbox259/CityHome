@@ -11,20 +11,20 @@ export const destinations: DestinationInfo[] = [
     slug: "mumbai",
     description:
       "City apartments built for business trips, film shoots and long stays in the city that doesn't slow down.",
-    heroImageKey: "destinations/mumbai.jpg",
+    heroImageKey: "properties/elite-apartment/ELITE_4.jpg",
   },
   {
     name: "Lonavala",
     slug: "lonavala",
     description:
       "Hillside villas and pool homes an easy drive from Mumbai and Pune, made for weekends away.",
-    heroImageKey: "destinations/lonavala.jpg",
+    heroImageKey: "properties/royale/royale-2.jpg",
   },
   {
     name: "Pawna Lake",
     slug: "pawna-lake",
     description:
       "Lakefront villas built around bonfires, big groups and slow mornings facing the water.",
-    heroImageKey: "destinations/pawna-lake.jpg",
+    heroImageKey: "properties/sunset/sunset-2.jpg",
   },
 ];

@@ -1,25 +1,24 @@
 import type { ImageLoaderProps } from "next/image";
 
-const R2_BASE_URL =
-  process.env.NEXT_PUBLIC_R2_IMAGE_BASE_URL?.replace(/\/$/, "") ??
-  "/placeholder-images";
-
 /**
  * Custom Next.js Image loader.
  *
  * Cloudflare Workers cannot run Next's default Vercel-based image
- * optimization API, so this loader resolves directly to R2 (or a resizing
- * Worker in front of it) using `?width=&format=auto`, which serves
- * AVIF/WebP automatically based on the request's Accept header.
+ * optimization API, so this loader appends `?width=&format=auto` (served
+ * as AVIF/WebP automatically based on the request's Accept header) to
+ * whatever `src` it's given.
+ *
+ * IMPORTANT: `src` arrives here already fully resolved — `lib/images.ts`'s
+ * `r2ImageUrl()` is what turns a bare object key into a full R2 URL (or the
+ * local placeholder-images route in dev). This loader must NOT re-prepend
+ * NEXT_PUBLIC_R2_IMAGE_BASE_URL / the placeholder base itself, or the path
+ * doubles up (e.g. "/placeholder-images/placeholder-images/...").
  */
 export default function r2Loader({ src, width, quality }: ImageLoaderProps): string {
-  const cleanSrc = src.replace(/^\//, "");
-  const isAbsolute = /^https?:\/\//.test(cleanSrc);
-  const base = isAbsolute ? cleanSrc.split("?")[0] : `${R2_BASE_URL}/${cleanSrc}`;
-  const params = new URLSearchParams({
-    width: String(width),
-    format: "auto",
-  });
+  const [base, existingQuery] = src.split("?");
+  const params = new URLSearchParams(existingQuery);
+  params.set("width", String(width));
+  params.set("format", "auto");
   if (quality) params.set("quality", String(quality));
   return `${base}?${params.toString()}`;
 }

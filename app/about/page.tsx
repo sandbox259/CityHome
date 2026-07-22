@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ScrollReveal } from "@/components/ScrollReveal";
+//import { SignatureMark } from "@/components/SignatureMark";
 
 export const metadata: Metadata = {
   title: "About",
@@ -61,15 +63,17 @@ export default function AboutPage() {
 
             <div className="lg:col-span-5">
 
-              <div className="relative aspect-[4/5] overflow-hidden">
-                <Image
-                  src="/HOME_2.jpeg"
-                  alt="A City Homes by Aashiyaanaa property"
-                  fill
-                  priority
-                  className="object-cover"
-                />
-              </div>
+              <ScrollReveal variant="mask">
+                <div className="relative aspect-[4/5]">
+                  <Image
+                    src="/HOME_2.jpeg"
+                    alt="A City Homes by Aashiyaanaa property"
+                    fill
+                    priority
+                    className="object-cover"
+                  />
+                </div>
+              </ScrollReveal>
 
             </div>
 
@@ -124,15 +128,16 @@ export default function AboutPage() {
 
               <div className="lg:col-span-5">
 
-                <div className="relative aspect-[4/5] overflow-hidden">
-                  <Image
-                    src="/FOUNDER.jpg"
-                    alt="Atif Munshi, founder of City Homes by Aashiyaanaa"
-                    fill
-                    priority
-                    className="object-cover"
-                  />
-                </div>
+                 <ScrollReveal variant="mask">
+                  <div className="relative aspect-[4/5]">
+                    <Image
+                      src="/FOUNDER.jpg"
+                      alt="Atif Munshi, founder of City Homes by Aashiyaanaa"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                 </ScrollReveal>
 
                 <h3 className="mt-7 font-display text-2xl">Atif Munshi</h3>
 
@@ -179,6 +184,8 @@ export default function AboutPage() {
                     “The finest hospitality isn&apos;t measured by luxury —
                     it&apos;s measured by how welcomed you feel.”
                   </blockquote>
+
+                 {/* <SignatureMark className="stamp-tilt mt-6 h-12 w-auto text-brand-red" />*/}
 
                 </figure>
 

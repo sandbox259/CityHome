@@ -15,7 +15,7 @@
     "binding": "ASSETS"
   },
   "vars": {
-    "NEXT_PUBLIC_R2_IMAGE_BASE_URL": "https://pub-c2c6364d6e774003a90aa143883c1c33.r2.dev",
+    "NEXT_PUBLIC_R2_IMAGE_BASE_URL": "https://media.cityhomes.net.in",
     "NEXT_PUBLIC_WHATSAPP_NUMBER": "911234567890",
     "CONTACT_RECIPIENT_EMAIL": "hello@cityhomesbyaashiyaanaa.com"
   }

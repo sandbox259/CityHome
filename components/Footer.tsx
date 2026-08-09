@@ -39,6 +39,7 @@ export function Footer() {
             Explore
           </h3>
           <ul className="space-y-3 text-sm">
+            <li><Link className="underline-hover" href="/">Home</Link></li>
             <li><Link className="underline-hover" href="/stays">Stays</Link></li>
             <li><Link className="underline-hover" href="/villas">Villas</Link></li>
             <li><Link className="underline-hover" href="/apartments">Apartments</Link></li>

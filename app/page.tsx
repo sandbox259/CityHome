@@ -14,6 +14,7 @@ import { getFeaturedProperties, getPropertyBySlug } from "@/data/properties";
 import { destinations } from "@/data/destinations";
 import { testimonials } from "@/data/testimonials";
 import { r2ImageUrl, CARD_SIZES } from "@/lib/images";
+import { InstagramReelsSection } from "@/components/InstagramReelsSection";
 
 const EXPERIENCES = [
   { title: "Weekend Escapes", tag: "weekend-escape" as const, imageKey: "properties/arzen/arzen-6.jpg" },
@@ -195,10 +196,18 @@ export default function HomePage() {
         </section>
 
         {/* Testimonials */}
-        <section className="bg-surface border-y border-border py-24 md:py-32">
+        {/* <section className="bg-surface border-y border-border py-24 md:py-32">
           <div className="container-editorial">
             <ScrollReveal variant="fade-up">
               <TestimonialSection testimonials={testimonials} />
+            </ScrollReveal>
+          </div>
+        </section> */}
+
+        <section className="bg-surface border-y border-border py-24 md:py-32">
+          <div className="container-editorial">
+            <ScrollReveal variant="fade-up">
+              <InstagramReelsSection />
             </ScrollReveal>
           </div>
         </section>

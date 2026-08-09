@@ -151,7 +151,7 @@ export function InstagramReelsSection() {
       {/* Instagram CTA */}
       <div className="mt-8 text-center">
         <a
-          href="https://www.instagram.com/YOUR_USERNAME/"
+          href="https://www.instagram.com/cityhomes_by_aashiyaanaa/"
           target="_blank"
           rel="noopener noreferrer"
           className="

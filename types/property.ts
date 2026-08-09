@@ -20,7 +20,7 @@ export interface NearbyPlace {
 export interface HouseInformation {
   checkIn: string;
   checkOut: string;
-  parking: "available" | "not-available" | "street-parking";
+  parking: "available" | "not-available" | "street-parking" | "depends-on-availability";
   coupleFriendly: boolean;
   petPolicy: string;
   smokingPolicy: string;

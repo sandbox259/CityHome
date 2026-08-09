@@ -1,9 +1,9 @@
-import { Users, BedDouble, Bath, UtensilsCrossed, KeyRound, ShieldCheck, HelpCircle } from "lucide-react";
+import { Users, BedDouble, Bath, UtensilsCrossed, KeyRound, ShieldCheck, HelpCircle, Waves } from "lucide-react";
 import type { Property } from "@/types/property";
 
 export function PropertyFacts({ property }: { property: Property }) {
   const facts = [
-    { icon: Users, label: `${property.maxGuests} Guests` },
+    //{ icon: Users, label: `${property.maxGuests} Guests` },
     { icon: BedDouble, label: `${property.bedrooms} ${property.bedrooms === 1 ? "Bedroom" : "Bedrooms"}` },
     property.bathrooms !== null
       ? { icon: Bath, label: `${property.bathrooms} ${property.bathrooms === 1 ? "Bathroom" : "Bathrooms"}` }
@@ -11,6 +11,9 @@ export function PropertyFacts({ property }: { property: Property }) {
     { icon: UtensilsCrossed, label: "Kitchen" },
     { icon: KeyRound, label: "Self Check-in" },
     { icon: ShieldCheck, label: "24/7 Security" },
+    ...(property.type === "villa" && property.hasPool
+      ? [{ icon: Waves, label: "Private Pool" }]
+      : []),
   ];
 
   return (

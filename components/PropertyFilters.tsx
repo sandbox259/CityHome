@@ -16,7 +16,7 @@ type SortKey = "featured" | "guests" | "bedrooms" | "name";
 
 const SORTS: { key: SortKey; label: string }[] = [
   { key: "featured", label: "Featured first" },
-  { key: "guests", label: "Most guests" },
+  //{ key: "guests", label: "Most guests" },
   { key: "bedrooms", label: "Most bedrooms" },
   { key: "name", label: "Name, A–Z" },
 ];
@@ -156,7 +156,7 @@ export function PropertyFilters({
       {panelOpen && (
         <div className="mb-8 border border-border bg-surface p-6 md:p-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
+            {/* <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-muted mb-3">
                 Guests, at least
               </p>
@@ -175,7 +175,7 @@ export function PropertyFilters({
                   />
                 ))}
               </div>
-            </div>
+            </div> */}
 
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-muted mb-3">

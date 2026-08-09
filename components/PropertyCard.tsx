@@ -29,9 +29,9 @@ export function PropertyCard({ property }: { property: Property }) {
           </h3>
           <p className="mt-1 text-sm text-muted">{property.shortLocation}</p>
           <div className="mt-3 flex items-center gap-4 text-xs text-muted">
-            <span className="inline-flex items-center gap-1.5">
-              <Users size={14} aria-hidden="true" /> {property.maxGuests} guests
-            </span>
+            {/* <span className="inline-flex items-center gap-1.5"> */}
+              {/* <Users size={14} aria-hidden="true" /> {property.maxGuests} guests */}
+            {/* </span> */}
             {property.type === "villa" && (
               <span className="inline-flex items-center gap-1.5">
                 <BedDouble size={14} aria-hidden="true" /> {property.bedrooms} bed

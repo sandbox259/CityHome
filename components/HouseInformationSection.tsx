@@ -11,6 +11,8 @@ export function HouseInformationSection({ property }: { property: Property }) {
       value:
         info.parking === "available"
           ? "Available"
+          : info.parking === "depends-on-availability"
+          ? "Depends on availability"
           : info.parking === "street-parking"
           ? "Street parking only"
           : "Not available",

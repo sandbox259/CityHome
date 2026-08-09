@@ -7,7 +7,7 @@ import { properties } from "@/data/properties";
 export const metadata: Metadata = {
   title: "All Stays",
   description:
-    "Browse every villa and apartment in the City Homes by Aashiyaanaa collection across Mumbai, Lonavala and Pawna Lake.",
+    "Browse every villa and apartment in the City Homes by Aashiyaanaa collection across Mumbai, Lonavala, Karjat and Pawna Lake.",
   alternates: { canonical: "/stays" },
 };
 
@@ -22,7 +22,7 @@ export default function StaysPage() {
             Every stay, in one place.
           </h1>
           <p className="mt-5 text-base md:text-lg text-muted leading-relaxed">
-            Villas and apartments across Mumbai, Lonavala and Pawna Lake —
+            Villas and apartments across Mumbai, Lonavala, Karjat and Pawna Lake —
             filter by type or destination to find yours.
           </p>
         </div>

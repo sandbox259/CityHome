@@ -67,7 +67,7 @@ export function Hero() {
             drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]
           "
         >
-          Mumbai · Lonavala · Pawna
+          Mumbai · Lonavala · Pawna · Karjat
         </motion.p>
 
         <h1

@@ -29,7 +29,7 @@ export function Footer() {
             />
           </Link>
           <p className="mt-4 text-sm text-white/60 leading-relaxed max-w-xs">
-            Premium villas and city apartments across Mumbai, Lonavala and
+            Premium villas and city apartments across Mumbai, Lonavala, Karjat and
             Pawna Lake, thoughtfully curated for every kind of stay.
           </p>
         </div>
@@ -98,7 +98,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="container-editorial py-6 flex flex-col md:flex-row gap-2 justify-between text-xs text-white/40">
           <p>© {new Date().getFullYear()} City Homes by Aashiyaanaa. All rights reserved.</p>
-          <p>Mumbai · Lonavala · Pawna Lake</p>
+          <p>Mumbai · Lonavala · Pawna · Karjat</p>
         </div>
       </div>
     </footer>

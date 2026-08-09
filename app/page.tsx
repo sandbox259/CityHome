@@ -61,7 +61,7 @@ export default function HomePage() {
           <ScrollReveal variant="fade-up" delay={0.1}>
             <p className="mt-8 max-w-2xl mx-auto text-center text-base md:text-lg leading-relaxed text-muted">
               We curate a small, considered collection of villas and city
-              apartments across Mumbai, Lonavala and Pawna Lake — each one
+              apartments across Mumbai, Lonavala, Pawna and Karjat  — each one
               chosen for its design, its setting and the way it makes people
               feel the moment they walk in. No two homes in our collection look
               alike, and none of them feel like a hotel.

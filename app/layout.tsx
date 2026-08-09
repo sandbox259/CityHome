@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | City Homes by Aashiyaanaa",
   },
   description:
-    "Premium villas, apartments and curated stays across Mumbai, Lonavala and Pawna Lake, thoughtfully chosen for weekends, celebrations and city trips.",
+    "Premium villas, apartments and curated stays across Mumbai, Lonavala, Karjat and Pawna Lake, thoughtfully chosen for weekends, celebrations and city trips.",
     icons: {
     icon: [
       {
@@ -48,14 +48,14 @@ export const metadata: Metadata = {
     siteName: "City Homes by Aashiyaanaa",
     title: "City Homes by Aashiyaanaa | Premium Villas & City Apartments",
     description:
-      "Premium villas, apartments and curated stays across Mumbai, Lonavala and Pawna Lake.",
+      "Premium villas, apartments and curated stays across Mumbai, Lonavala, Karjat and Pawna Lake.",
     url: SITE_URL,
   },
   twitter: {
     card: "summary_large_image",
     title: "City Homes by Aashiyaanaa",
     description:
-      "Premium villas, apartments and curated stays across Mumbai, Lonavala and Pawna Lake.",
+      "Premium villas, apartments and curated stays across Mumbai, Lonavala, Karjat and Pawna Lake.",
   },
   alternates: {
     canonical: "/",

@@ -9,7 +9,7 @@ const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with City Homes by Aashiyaanaa for enquiries about villas and apartments across Mumbai, Lonavala and Pawna Lake.",
+    "Get in touch with City Homes by Aashiyaanaa for enquiries about villas and apartments across Mumbai, Lonavala, Karjat and Pawna Lake.",
   alternates: { canonical: "/contact" },
 };
 

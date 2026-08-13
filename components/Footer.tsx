@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Mail, MessageCircle } from "lucide-react";
+import { Mail } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 function InstagramIcon({ size = 16 }: { size?: number }) {
   return (
@@ -70,7 +71,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <MessageCircle size={16} aria-hidden="true" /> WhatsApp
+                  <FaWhatsapp size={16} aria-hidden="true" /> WhatsApp
                 </a>
               </li>
             )}

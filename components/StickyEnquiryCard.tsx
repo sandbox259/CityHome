@@ -1,4 +1,4 @@
-import { MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import type { Property } from "@/types/property";
 import { EnquiryForm } from "./EnquiryForm";
 
@@ -19,7 +19,7 @@ export function StickyEnquiryCard({ property }: { property: Property }) {
           rel="noopener noreferrer"
           className="mt-3 flex items-center justify-center gap-2 border border-border py-3 text-sm font-medium hover:border-charcoal transition-colors"
         >
-          <MessageCircle size={16} aria-hidden="true" /> Message on WhatsApp
+          <FaWhatsapp size={16} aria-hidden="true" /> Message on WhatsApp
         </a>
       )}
     </div>

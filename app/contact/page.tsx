@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ContactForm } from "@/components/ContactForm";
-import { Mail, MessageCircle } from "lucide-react";
+import { Mail } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "";
 
@@ -38,7 +39,7 @@ export default function ContactPage() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-sm font-medium underline-hover w-fit"
                 >
-                  <MessageCircle size={18} className="text-brand-red" aria-hidden="true" /> Chat on WhatsApp
+                  <FaWhatsapp size={18} className="text-brand-red" aria-hidden="true" /> Chat on WhatsApp
                 </a>
               )}
               <a

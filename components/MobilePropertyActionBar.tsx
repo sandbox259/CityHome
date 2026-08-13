@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { MessageCircle, X } from "lucide-react";
+import { X } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import type { Property } from "@/types/property";
 import { EnquiryForm } from "./EnquiryForm";
 
@@ -20,7 +21,7 @@ export function MobilePropertyActionBar({ property }: { property: Property }) {
             rel="noopener noreferrer"
             className="flex-1 flex items-center justify-center gap-2 border border-border py-3.5 text-sm font-medium min-h-11"
           >
-            <MessageCircle size={16} aria-hidden="true" /> WhatsApp
+            <FaWhatsapp size={16} aria-hidden="true" /> WhatsApp
           </a>
         )}
         <button

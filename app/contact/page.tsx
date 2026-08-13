@@ -42,10 +42,10 @@ export default function ContactPage() {
                 </a>
               )}
               <a
-                href="mailto:hello@cityhomesbyaashiyaanaa.com"
+                href="mailto:cityhomes.net.in@gmail.com"
                 className="flex items-center gap-3 text-sm font-medium underline-hover w-fit"
               >
-                <Mail size={18} className="text-brand-red" aria-hidden="true" /> hello@cityhomesbyaashiyaanaa.com
+                <Mail size={18} className="text-brand-red" aria-hidden="true" /> cityhomes.net.in@gmail.com
               </a>
             </div>
           </div>

@@ -87,7 +87,7 @@ export function Footer() {
             <li>
               <a
                 className="underline-hover inline-flex items-center gap-2"
-                href="mailto:hello@cityhomesbyaashiyaanaa.com"
+                href="mailto:cityhomes.net.in@gmail.com"
               >
                 <Mail size={16} aria-hidden="true" /> Email
               </a>

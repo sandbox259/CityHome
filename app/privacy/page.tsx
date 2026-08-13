@@ -55,8 +55,8 @@ export default function PrivacyPage() {
               <p>
                 For questions about this policy or to request that your
                 data be deleted, email us at{" "}
-                <a className="underline-hover" href="mailto:hello@cityhomesbyaashiyaanaa.com">
-                  hello@cityhomesbyaashiyaanaa.com
+                <a className="underline-hover" href="mailto:cityhomes.net.in@gmail.com">
+                  cityhomes.net.in@gmail.com
                 </a>
                 .
               </p>

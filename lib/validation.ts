@@ -24,7 +24,8 @@ export const contactFormSchema = z.object({
   subject: z.string().trim().max(FIELD_LIMITS.subject).optional().or(z.literal("")),
   message: z.string().trim().min(10, "Tell us a little more").max(FIELD_LIMITS.message),
   preferredContactMethod: z.enum(preferredContactMethods).default("phone"),
-  turnstileToken: z.string().min(1, "Verification failed, please retry"),
+  //turnstileToken: z.string().min(1, "Verification failed, please retry"),
+  turnstileToken: z.string().optional().or(z.literal("")),
   // Honeypot field — must stay empty. Bots that autofill every field trip this.
   company: z.string().max(0).optional().or(z.literal("")),
 });

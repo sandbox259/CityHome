@@ -56,8 +56,10 @@ export function ContactForm() {
         return;
       }
       setStatus("success");
-      e.currentTarget.reset();
-    } catch {
+      //e.currentTarget.reset();
+    } 
+    
+    catch {
       setServerMessage("We couldn't reach the server. Please check your connection and try again.");
       setStatus("error");
     }

@@ -38,7 +38,7 @@ export async function sendContactNotification(values: ContactFormValues) {
   `;
 
   return resend.emails.send({
-    from: "City Homes by Aashiyaanaa <enquiries@cityhomesbyaashiyaanaa.com>",
+    from: "City Homes by Aashiyaanaa <info@enquiry.cityhomes.net.in>",
     to: recipient,
     replyTo: values.email || undefined,
     subject: `New enquiry — ${values.subject || "General"}`,
@@ -71,7 +71,7 @@ export async function sendEnquiryNotification(values: EnquiryFormValues) {
   `;
 
   return resend.emails.send({
-    from: "City Homes by Aashiyaanaa <enquiries@cityhomesbyaashiyaanaa.com>",
+    from: "City Homes by Aashiyaanaa <info@enquiry.cityhomes.net.in>",
     to: recipient,
     replyTo: values.email || undefined,
     subject: `New enquiry — ${values.propertyName}`,
@@ -94,7 +94,7 @@ export async function sendGuestAcknowledgement(toEmail: string, guestName: strin
   `;
 
   return resend.emails.send({
-    from: "City Homes by Aashiyaanaa <enquiries@cityhomesbyaashiyaanaa.com>",
+    from: "City Homes by Aashiyaanaa <info@enquiry.cityhomes.net.in>",
     to: toEmail,
     subject: "We've received your enquiry — City Homes by Aashiyaanaa",
     html,

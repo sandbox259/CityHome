@@ -37,6 +37,32 @@ export function r2SrcSet(key: string): string {
 }
 
 /**
+ * Direct, predictable URL for a specific pre-generated variant — for
+ * contexts that render a plain <img> and manage loading themselves (e.g.
+ * the gallery lightbox, which preloads every photo up front).
+ *
+ * TEMPORARY: falls back to the original full-size file for now, because
+ * the `<key-without-ext>-<width>.webp` variants that scripts/optimize-
+ * images.mjs generates haven't been uploaded to R2 yet. Once that upload
+ * happens, swap the body of this function back to the filename-suffix
+ * version (kept below, commented out) to actually serve the smaller
+ * pre-generated file instead of the full original on every request.
+ */
+export function r2VariantUrl(key: string, width: ImageVariant = 1920): string {
+  void width; // unused while the fallback below is active — see note above
+  return r2ImageUrl(key);
+
+  // --- Re-enable once -480/-768/-1200/-1920.webp variants exist in R2 ---
+  // const cleanKey = key.replace(/^\//, "");
+  // if (!process.env.NEXT_PUBLIC_R2_IMAGE_BASE_URL) {
+  //   return `${R2_BASE_URL}/${cleanKey}?width=${width}&format=auto`;
+  // }
+  // const lastDot = cleanKey.lastIndexOf(".");
+  // const base = lastDot === -1 ? cleanKey : cleanKey.slice(0, lastDot);
+  // return `${R2_BASE_URL}/${base}-${width}.webp`;
+}
+
+/**
  * Default `sizes` attribute for a full-bleed hero image.
  */
 export const HERO_SIZES = "100vw";

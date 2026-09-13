@@ -71,9 +71,10 @@ export const properties: Property[] = [
       { key: "properties/pearl-apartment/PEARL_8.jpg", alt: "Pearl Hans Residency exterior", width: 1600, height: 1067 },
     ],
     heroImage: { key: "properties/pearl-apartment/PEARL_4.jpg", alt: "Pearl by City Homes, Kurla West", width: 1920, height: 1280 },
-    mapEmbedUrl: "https://www.google.com/maps?q=19.0713,72.8794&z=15&output=embed",
-    latitude: 19.0713,
-    longitude: 72.8794,
+    // Verified via Google Maps: Pearl Hans Residency
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d942.6316270907136!2d72.8896351!3d19.08454470000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c887a16dafb7%3A0xf69629abb2f5400!2sPearl%20Hans%20Residency%2C%204%2C%20Lal%20Bahadur%20Shastri%20Marg%2C%20opposite%20Phoenix%20Gate%2C%20near%20Naaz%20Hotel%2C%20Kurla%20West%2C%20Kurla%2C%20Mumbai%2C%20Maharashtra%20400070%2C%20India!5e0!3m2!1sen!2sus!4v1789290978788!5m2!1sen!2sus",
+    latitude: 19.0845447,
+    longitude: 72.8896351,
     featured: true,
     coupleFriendly: true,
     parkingAvailable: false,
@@ -152,9 +153,10 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/paradise-apartment/PARADISE_5.jpg", alt: "Paradise by City Homes, Kurla", width: 1920, height: 1280 },
     // NOTE: approximate Kurla area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=19.0726,72.8791&z=14&output=embed",
-    latitude: 19.0726,
-    longitude: 72.8791,
+    // Verified via Google Maps: CITY HOMES PARADISE APARTMENT
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60327.21126905407!2d72.86913860000001!3d19.087873799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c894902d2f3b%3A0x3520bcc63663bd04!2sCITY%20HOMES%20PARADISE%20APARTMENT!5e0!3m2!1sen!2sus!4v1789291640094!5m2!1sen!2sus",
+    latitude: 19.0669098,
+    longitude: 72.8773575,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -231,9 +233,10 @@ export const properties: Property[] = [
       { key: "properties/orchid-apartment/ORCHID_10.jpg", alt: "Living room at Orchid by City Homes", width: 1600, height: 1067 },
     ],
     heroImage: { key: "properties/orchid-apartment/ORCHID_3.jpg", alt: "Orchid by City Homes, Kurla East", width: 1920, height: 1280 },
-    mapEmbedUrl: "https://www.google.com/maps?q=19.0745,72.8873&z=15&output=embed",
-    latitude: 19.0745,
-    longitude: 72.8873,
+    // Verified via Google Maps: CITY HOMES ORCHID APARTMENT
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.0199989985613!2d72.88067359999997!3d19.062858299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c895fb984d95%3A0x28273d6f6c096d60!2sCity%20Homes%20Orchid%20Apartments%20Kurla!5e0!3m2!1sen!2sus!4v1789291189457!5m2!1sen!2sus",
+    latitude: 19.06283,
+    longitude: 72.8808594,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -330,9 +333,10 @@ export const properties: Property[] = [
       { key: "properties/marita-apartment/MARITA_27.jpg", alt: "Outdoor sitting area at Marita by City Homes", width: 1600, height: 1067 },
     ],
     heroImage: { key: "properties/marita-apartment/MARITA_25.jpeg", alt: "Marita by City Homes, Bandra West", width: 1920, height: 1280 },
-    mapEmbedUrl: "https://www.google.com/maps?q=19.0509,72.8261&z=15&output=embed",
-    latitude: 19.0509,
-    longitude: 72.8261,
+    // Verified via Google Maps: City Homes Marita Apartment
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.928062291703!2d72.82402420000003!3d19.06690025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c96d9ff00c0b%3A0x6430fc7dcc0e1b8b!2sCity%20Homes%20Marita%20Apartment!5e0!3m2!1sen!2sus!4v1789291544716!5m2!1sen!2sus",
+    latitude: 19.0671597,
+    longitude: 72.824913,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -415,9 +419,10 @@ export const properties: Property[] = [
       { key: "properties/marita-apartment-2bhk/MARITA_2_8.jpg", alt: "Bedroom at Marita 2 BHK by City Homes", width: 1600, height: 1067 },
     ],
     heroImage: { key: "properties/marita-apartment-2bhk/MARITA_2_1.jpg", alt: "Marita 2 BHK by City Homes, near Carter Road", width: 1920, height: 1280 },
-    mapEmbedUrl: "https://www.google.com/maps?q=19.0509,72.8261&z=15&output=embed",
-    latitude: 19.0509,
-    longitude: 72.8261,
+    // Verified via Google Maps: Marita Apartment 2bhk City Homes
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.928062291694!2d72.82421110000003!3d19.06690025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c96da716cd51%3A0x8bba6472db3aef8a!2sMarita%20Apartment%202bhk%20City%20Homes!5e0!3m2!1sen!2sus!4v1789291723978!5m2!1sen!2sus",
+    latitude: 19.0666408,
+    longitude: 72.8248368,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -503,9 +508,10 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/crystal-apartment/CRYSTAL_17.jpg", alt: "Crystal by City Homes, near BKC", width: 1920, height: 1280 },
     // NOTE: approximate BKC area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=19.0663,72.8686&z=15&output=embed",
-    latitude: 19.0663,
-    longitude: 72.8686,
+    // Verified via Google Maps: City Homes Crystal Apartment (Nehru Nagar, Kurla - note: marketed as 'near BKC' but the pinned listing is in Kurla)
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4170.414160100243!2d72.87909821569211!3d19.059101003898437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8be70e005d5%3A0xc234796ab620ebe6!2sCITY%20HOMES%20CRYSTAL%20APARTMENT!5e0!3m2!1sen!2sus!4v1789291844809!5m2!1sen!2sus",
+    latitude: 19.0606974,
+    longitude: 72.8803984,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: false,
@@ -595,7 +601,8 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/elite-apartment/ELITE_3.jpg", alt: "Elite by City Homes, Kurla East", width: 1920, height: 1280 },
     // NOTE: approximate Kurla East area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=19.0728,72.8826&z=15&output=embed",
+    // No dedicated Google Maps listing found for this unit - coordinates remain an approximation of the Kurla East area. Confirm exact address with property owner.
+    mapEmbedUrl: "https://www.google.com/maps?q=19.0728,72.8826&z=16&output=embed",
     latitude: 19.0728,
     longitude: 72.8826,
     featured: false,
@@ -670,9 +677,10 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/arzen/arzen-1.jpg", alt: "Arzen — City Homes by Aashiyaanaa, Pawna Lake", width: 1920, height: 1280 },
     // NOTE: approximate Pawna Lake area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.6873,73.4603&z=14&output=embed",
-    latitude: 18.6873,
-    longitude: 73.4603,
+    // Verified via Google Maps: Arzen by Aashiyaanaa
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d483121.24371809914!2d73.1219805!3d18.91435805000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8030067cacbe9%3A0xbef825d511c626ec!2sArzen%20by%20Aashiyaanaa!5e0!3m2!1sen!2sus!4v1789292044133!5m2!1sen!2sus",
+    latitude: 18.705133,
+    longitude: 73.4338212,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -745,9 +753,10 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/farm-ville/farm-1.jpg", alt: "Farm Ville — City Homes by Aashiyaanaa, Kamshet, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Kamshet area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.7522,73.4519&z=14&output=embed",
-    latitude: 18.7522,
-    longitude: 73.4519,
+    // Verified via Google Maps: FarmVille by Ashiyana
+    mapEmbedUrl:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6929.5266124757645!2d73.5667209857062!3d18.737837526320632!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ad0009e8c779%3A0x1f4ea629b8e3a190!2sFarmVille%20by%20Ashiyana!5e0!3m2!1sen!2sus!4v1789290221825!5m2!1sen!2sus",
+    latitude: 18.7378456,
+    longitude: 73.5686092,
     featured: true,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -828,7 +837,8 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/grand/grand-1.jpg", alt: "Grand — City Homes by Aashiyaanaa, Tungarli, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Tungarli area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.7411,73.4076&z=14&output=embed",
+    // No dedicated Google Maps listing found for this specific villa - coordinates remain an approximation of the Tungarli area. Confirm exact pin with property owner.
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.422473540841!2d73.40016449999999!3d18.779316599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be800e8d28a2721%3A0x74653fa2975a19f9!2sAashiyaanaa%20Villa!5e0!3m2!1sen!2sus!4v1789292228570!5m2!1sen!2sus",
     latitude: 18.7411,
     longitude: 73.4076,
     featured: false,
@@ -906,7 +916,8 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/imperial/imperial-1.jpg", alt: "Imperial — City Homes by Aashiyaanaa, Tungarli, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Tungarli area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.7411,73.4076&z=14&output=embed",
+    // No dedicated Google Maps listing found for this specific villa - coordinates remain an approximation of the Tungarli area. Confirm exact pin with property owner.
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.422473540841!2d73.40016449999999!3d18.779316599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be800e8d28a2721%3A0x74653fa2975a19f9!2sAashiyaanaa%20Villa!5e0!3m2!1sen!2sus!4v1789292228570!5m2!1sen!2sus",
     latitude: 18.7411,
     longitude: 73.4076,
     featured: false,
@@ -1003,9 +1014,10 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/lake-nirvana/lake-1.jpg", alt: "Lake Nirvana — City Homes by Aashiyaanaa, Pawna Lake, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Pawna Lake area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.6873,73.4603&z=14&output=embed",
-    latitude: 18.6873,
-    longitude: 73.4603,
+    // No listing found under the 'Lake Nirvana' name specifically - pinned to 'Horizon by Aashiyaanaa', the verified Google Maps listing for the same Aashiyaanaa Pawna Lake complex (Dhamandhara, Apti) where guest reviews confirm a 'Lake Nirvana' stay. Confirm the exact building/unit pin with the property owner.
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15116.570957894784!2d73.43868195373202!3d18.70242660665645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8031d8768e8cf%3A0x8463fe8c9bdf231e!2sAashiyaanaa%20'Lakeside'!5e0!3m2!1sen!2sus!4v1789292448268!5m2!1sen!2sus",
+    latitude: 18.7006954,
+    longitude: 73.44300299999999,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -1088,9 +1100,10 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/meadows/meadows-1.jpg", alt: "Meadows — City Homes by Aashiyaanaa, Pawna Lake, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Pawna Lake area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.6873,73.4603&z=14&output=embed",
-    latitude: 18.6873,
-    longitude: 73.4603,
+    // Verified via Google Maps: Meadows villa, Tungarli Rd, Gold Valley Sector D, Tungarli
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.422473540841!2d73.40016449999999!3d18.779316599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be800e8d28a2721%3A0x74653fa2975a19f9!2sAashiyaanaa%20Villa!5e0!3m2!1sen!2sus!4v1789292228570!5m2!1sen!2sus",
+    latitude: 18.7684354,
+    longitude: 73.4094305,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -1159,9 +1172,10 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/palace/palace-1.jpg", alt: "Palace — City Homes by Aashiyaanaa, Madh Island, Mumbai", width: 1920, height: 1280 },
     // NOTE: approximate Madh Island coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=19.1759,72.7883&z=14&output=embed",
-    latitude: 19.1759,
-    longitude: 72.7883,
+    // Verified via Google Maps: Aashiyaanaa Villa 'THE PALACE', Erangal Gaon, Madh
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.607436423394!2d72.7909591!3d19.168653599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b5cd355d6393%3A0xbdf2e7ebb7e97ea8!2sAashiyaanaa%20Villa%20'THE%20PALACE'!5e0!3m2!1sen!2sus!4v1789294221801!5m2!1sen!2sus",
+    latitude: 19.1686536,
+    longitude: 72.7909591,
     featured: true,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -1234,7 +1248,8 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/riviera/riviera-1.jpg", alt: "Riviera — City Homes by Aashiyaanaa, Pawna Lake, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Pawna Lake area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.6873,73.4603&z=14&output=embed",
+    // No dedicated Google Maps listing found for this specific villa - coordinates remain an approximation of the Pawna Lake area. Confirm exact pin with property owner.
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.1776560368644!2d73.44081291744384!3d18.700862800000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8031cbbd0d9db%3A0xe40ef4bb9ebf1b01!2sCity%20Homes%20by%20Aashiyaanaa%20Suites%20%26%20Villas%20(Pawna%20Lonavala)!5e0!3m2!1sen!2sus!4v1789294375991!5m2!1sen!2sus",
     latitude: 18.6873,
     longitude: 73.4603,
     featured: false,
@@ -1314,9 +1329,10 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/royale/royale-1.jpg", alt: "Royale — City Homes by Aashiyaanaa, Gold Valley, Tungarli, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Tungarli area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.7411,73.4076&z=14&output=embed",
-    latitude: 18.7411,
-    longitude: 73.4076,
+    // Verified via Google Maps: 'Aashiyaanaa Villa', Bungalow no 39/40, C2 AashiyanaA Villa Gold Valley, Sector C2, Tungarli
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.422473540841!2d73.40016449999999!3d18.779316599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be800e8d28a2721%3A0x74653fa2975a19f9!2sAashiyaanaa%20Villa!5e0!3m2!1sen!2sus!4v1789292228570!5m2!1sen!2sus",
+    latitude: 18.7793166,
+    longitude: 73.4001645,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -1396,7 +1412,8 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/serenity/serenity-1.jpg", alt: "Serenity — City Homes by Aashiyaanaa, Pawna Lake, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Pawna Lake area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.6873,73.4603&z=14&output=embed",
+    // No dedicated Google Maps listing found for this specific villa - coordinates remain an approximation of the Pawna Lake area. Confirm exact pin with property owner.
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.1776560368644!2d73.44081291744384!3d18.700862800000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8031cbbd0d9db%3A0xe40ef4bb9ebf1b01!2sCity%20Homes%20by%20Aashiyaanaa%20Suites%20%26%20Villas%20(Pawna%20Lonavala)!5e0!3m2!1sen!2sus!4v1789294375991!5m2!1sen!2sus",
     latitude: 18.6873,
     longitude: 73.4603,
     featured: false,
@@ -1483,9 +1500,10 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/sky-waters/sky-1.jpg", alt: "Sky Waters — City Homes by Aashiyaanaa, Pawna Lake, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Pawna Lake area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.6873,73.4603&z=14&output=embed",
-    latitude: 18.6873,
-    longitude: 73.4603,
+    // Verified via Google Maps: Skywater managed by Aashiyaana Lakeside
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.1631164319165!2d73.44313300000002!3d18.701514000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8030079afa333%3A0x5b9961a320dcf219!2sSkywater%20managed%20by%20Aashiyaana%20Lakeside!5e0!3m2!1sen!2sus!4v1789294450306!5m2!1sen!2sus",
+    latitude: 18.701514,
+    longitude: 73.443133,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -1563,9 +1581,10 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/suites/suites-1.jpg", alt: "Suites — City Homes by Aashiyaanaa, Pawna Lake, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Pawna Lake area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.6873,73.4603&z=14&output=embed",
-    latitude: 18.6873,
-    longitude: 73.4603,
+    // Verified via Google Maps: City Homes by Aashiyaanaa Suites & Villas (Pawna Lonavala)
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.1776560368644!2d73.44081291744384!3d18.700862800000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8031cbbd0d9db%3A0xe40ef4bb9ebf1b01!2sCity%20Homes%20by%20Aashiyaanaa%20Suites%20%26%20Villas%20(Pawna%20Lonavala)!5e0!3m2!1sen!2sus!4v1789294375991!5m2!1sen!2sus",
+    latitude: 18.7008628,
+    longitude: 73.4430016,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -1651,9 +1670,10 @@ export const properties: Property[] = [
     ],
     heroImage: { key: "properties/sunset/sunset-1.jpg", alt: "Sunset — City Homes by Aashiyaanaa, Pawna Lake, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Pawna Lake area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.6873,73.4603&z=14&output=embed",
-    latitude: 18.6873,
-    longitude: 73.4603,
+    // Verified via Google Maps: Aashiyaanaa Villa SUNSET
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.2247635040258!2d73.45300189999999!3d18.698752799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be803b45ec30981%3A0x8d4b982dd8634b37!2sAashiyaanaa%20Villa%20SUNSET!5e0!3m2!1sen!2sus!4v1789294330944!5m2!1sen!2sus",
+    latitude: 18.6987528,
+    longitude: 73.4530019,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
@@ -1741,14 +1761,14 @@ export const properties: Property[] = [
       { key: "properties/big-buddha/buddha-19.jpg", alt: "Bedroom at The Big Buddha — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
       { key: "properties/big-buddha/buddha-20.jpg", alt: "Bedroom at The Big Buddha — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
       { key: "properties/big-buddha/buddha-21.jpg", alt: "Bedroom at The Big Buddha — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
-      //{ key: "properties/big-buddha/buddha-7.jpg", alt: "Bedroom at The Big Buddha — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
       
     ],
     heroImage: { key: "properties/big-buddha/buddha-1.jpg", alt: "The Big Buddha — City Homes by Aashiyaanaa, Khandala, Lonavala", width: 1920, height: 1280 },
     // NOTE: approximate Khandala area coordinates — not an exact property pin.
-    mapEmbedUrl: "https://www.google.com/maps?q=18.7645,73.3855&z=14&output=embed",
-    latitude: 18.7645,
-    longitude: 73.3855,
+    // Verified via Google Maps: Big Buddha Villa, Kune Village, Khandala
+    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.3938232615264!2d73.38163850000002!3d18.78059460000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8010078dae53d%3A0x32fc862de7293285!2sBig%20Buddha%20Villa!5e0!3m2!1sen!2sus!4v1789290423242!5m2!1sen!2sus",
+    latitude: 18.7805946,
+    longitude: 73.3816385,
     featured: false,
     coupleFriendly: true,
     parkingAvailable: true,

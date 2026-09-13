@@ -7,6 +7,7 @@ const FILTERS: FilterOption[] = [
   { label: "All", test: () => true },
   { label: "Lonavala", test: (p) => p.destination === "Lonavala" },
   { label: "Pawna", test: (p) => p.destination === "Pawna Lake" },
+  { label: "Karjat", test: (p) => p.destination === "Karjat" },
   { label: "Pool", test: (p) => p.hasPool },
   { label: "Group Stay", test: (p) => p.experienceTags.includes("group-getaway") },
 ];

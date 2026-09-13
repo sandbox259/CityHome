@@ -10,6 +10,7 @@ const FILTERS: FilterOption[] = [
   { label: "Mumbai", test: (p) => p.destination === "Mumbai" },
   { label: "Lonavala", test: (p) => p.destination === "Lonavala" },
   { label: "Pawna", test: (p) => p.destination === "Pawna Lake" },
+  { label: "Karjat", test: (p) => p.destination === "Karjat" },
 ];
 
 export function StaysFilters({ properties }: { properties: Property[] }) {

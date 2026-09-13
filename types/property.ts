@@ -1,6 +1,6 @@
 export type PropertyType = "villa" | "apartment";
 
-export type Destination = "Mumbai" | "Lonavala" | "Pawna Lake";
+export type Destination = "Mumbai" | "Lonavala" | "Pawna Lake" |"Karjat";
 
 export type ExperienceTag =
   | "weekend-escape"

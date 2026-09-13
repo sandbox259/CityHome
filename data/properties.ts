@@ -1176,7 +1176,7 @@ export const properties: Property[] = [
     mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.607436423394!2d72.7909591!3d19.168653599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b5cd355d6393%3A0xbdf2e7ebb7e97ea8!2sAashiyaanaa%20Villa%20'THE%20PALACE'!5e0!3m2!1sen!2sus!4v1789294221801!5m2!1sen!2sus",
     latitude: 19.1686536,
     longitude: 72.7909591,
-    featured: true,
+    featured: false,
     coupleFriendly: true,
     parkingAvailable: true,
     shootingAccess: false,
@@ -1585,7 +1585,7 @@ export const properties: Property[] = [
     mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.1776560368644!2d73.44081291744384!3d18.700862800000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be8031cbbd0d9db%3A0xe40ef4bb9ebf1b01!2sCity%20Homes%20by%20Aashiyaanaa%20Suites%20%26%20Villas%20(Pawna%20Lonavala)!5e0!3m2!1sen!2sus!4v1789294375991!5m2!1sen!2sus",
     latitude: 18.7008628,
     longitude: 73.4430016,
-    featured: false,
+    featured: true,
     coupleFriendly: true,
     parkingAvailable: true,
     shootingAccess: false,
@@ -1782,6 +1782,130 @@ export const properties: Property[] = [
         "A 5-bedroom pool villa in Khandala, Lonavala with a private disco, gym and massive lawn for large friend groups.",
     },
   },
+  {
+  id: "premanand-villa",
+  slug: "premanand-villa-mohili-karjat",
+  name: "Premanand Villa — City Homes by Aashiyaanaa",
+  type: "villa",
+  destination: "Karjat",
+  shortLocation: "Mohili, Karjat",
+  address:
+    "Premanand Farm House No. 01, Opp. August Villas, Mohili Meadows, Mohili, Karjat, Maharashtra 410201",
+  tagline: "A luxury 7BHK escape in the hills of Karjat",
+  shortDescription:
+    "A luxurious 7BHK private villa in Mohili, Karjat with a private pool, kids pool, jacuzzi, games, landscaped gardens and space for large groups.",
+  description:
+    "Premanand Villa — City Homes by Aashiyaanaa is a luxurious 7BHK private villa in the scenic surroundings of Mohili, Karjat. Designed for families, friends, celebrations and corporate retreats, the villa features seven air-conditioned bedrooms, a private swimming pool with a kids pool, a large jacuzzi, a snooker table, foosball, a kids play area, landscaped gardens and a gazebo. Two spacious living rooms, an elegant dining area, high-speed Wi-Fi, Smart TVs, power backup and ample private parking make it well suited to large group stays. Daily housekeeping, caretaker assistance and meal packages are available for a comfortable, fully managed getaway.",
+
+  maxGuests: 16,
+  bedrooms: 7,
+  bathrooms: 7,
+
+  amenities: [
+    "Wi-Fi",
+    "Private Swimming Pool",
+    "Kids Pool",
+    "Jacuzzi",
+    "Air Conditioning",
+    "Smart TV",
+    "Power Backup",
+    "Meal Packages",
+    "Daily Housekeeping",
+    "Caretaker Assistance",
+  ],
+
+  facilities: [
+    "Luxury Seven Bedroom Villa",
+    "7 Air-Conditioned Bedrooms",
+    "7 Attached Bathrooms",
+    "2 Spacious Living Rooms",
+    "Elegant Dining Area",
+    "Private Swimming Pool",
+    "Kids Pool",
+    "Large Jacuzzi",
+    "Snooker Table",
+    "Foosball Table",
+    "Kids Play Area",
+    "Cricket & Football Ground",
+    "Landscaped Garden",
+    "Gazebo Seating",
+    "BBQ Setup on Request",
+    "Meal Packages Available",
+    "Ample Private Parking",
+    "Secure Gated Property",
+    "Daily Housekeeping",
+    "Caretaker Assistance",
+  ],
+
+  houseInformation: {
+    checkIn: "2:00 PM",
+    checkOut: "12:00 PM",
+    parking: "available",
+    coupleFriendly: true,
+    petPolicy: "Please enquire before booking",
+    smokingPolicy: "Permitted in living rooms and outdoor areas",
+    eventsAllowed: true,
+    shootingAccess: true,
+  },
+
+  nearbyPlaces: [],
+
+  images: [
+    { key: "properties/karjat/karjat_1.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_2.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_3.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_4.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_5.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_6.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_7.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_8.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_9.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_10.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_11.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_12.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_13.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_14.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_15.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    { key: "properties/karjat/karjat_16.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    //{ key: "properties/karjat/karjat_17.jpg", alt: "The Premanand Villa — City Homes by Aashiyaanaa", width: 1600, height: 1067 },
+    // Add the remaining property images here.
+  ],
+
+  heroImage: {  key: "properties/karjat/karjat_17.jpg", alt: "Premanand Villa — City Homes by Aashiyaanaa, Mohili, Karjat", width: 1920, height: 1280 },
+
+  // Use the Google-generated embed URL once the exact property pin
+  // has been confirmed.
+  mapEmbedUrl:
+    "https://www.google.com/maps?q=Premanand+Farm+House+No.+01,+Opp.+August+Villas,+Mohili+Meadows,+Mohili,+Karjat,+Maharashtra+410201&z=16&output=embed",
+
+  // Exact property coordinates are not confirmed here.
+  // Add them after confirming the property's Google Maps pin.
+  latitude: 0,
+  longitude: 0,
+
+  featured: false,
+  coupleFriendly: true,
+  parkingAvailable: true,
+  shootingAccess: true,
+
+  experienceTags: [
+    "weekend-escape",
+    "group-getaway",
+    "couple-friendly",
+  ],
+
+  hasPool: true,
+
+  whatsappMessage:
+    "Hi! I'd like to enquire about Premanand Villa by City Homes in Mohili, Karjat.",
+
+  seo: {
+    title:
+      "Premanand Villa — 7BHK Luxury Villa in Mohili, Karjat | City Homes by Aashiyaanaa",
+    description:
+      "A luxury 7BHK villa in Mohili, Karjat with a private pool, kids pool, jacuzzi, games, landscaped gardens and premium amenities.",
+  },
+},
 ];
 
 type PropertyTypeSlug = "villas" | "apartments";

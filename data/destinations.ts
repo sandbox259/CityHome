@@ -27,4 +27,5 @@ export const destinations: DestinationInfo[] = [
       "Lakefront villas built around bonfires, big groups and slow mornings facing the water.",
     heroImageKey: "properties/sunset/sunset-2.jpg",
   },
+  
 ];

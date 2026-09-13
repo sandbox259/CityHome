@@ -41,7 +41,7 @@ const VISUAL_MOMENTS = [
 
 export default function HomePage() {
   const featured = getFeaturedProperties();
-  const pearl = getPropertyBySlug("pearl-apartment-kurla-west-mumbai");
+  const pearl = getPropertyBySlug("premanand-villa-mohili-karjat");
 
   return (
     <>
@@ -168,10 +168,10 @@ export default function HomePage() {
                   {pearl.shortDescription}
                 </p>
                 <Link
-                  href={`/apartments/${pearl.slug}`}
+                  href={`/villas/${pearl.slug}`}
                   className="mt-8 inline-flex items-center gap-2 border border-white/60 text-white px-7 py-3.5 text-sm font-semibold uppercase tracking-wide hover:border-white transition-colors"
                 >
-                  Explore Pearl Apartment <ArrowUpRight size={16} aria-hidden="true" />
+                  Explore Premanand Villa <ArrowUpRight size={16} aria-hidden="true" />
                 </Link>
               </ScrollReveal>
             </div>

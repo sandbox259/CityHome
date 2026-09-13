@@ -65,12 +65,7 @@ export default function AboutPage() {
 
                 <div className="mt-10 max-w-xl">
                   <p className="text-base md:text-lg leading-relaxed text-muted">
-                    City Homes by Aashiyaanaa began with a simple idea — that a
-                    stay away from home should feel considered, not generic.
-                    We work directly with a carefully selected collection of
-                    villa and apartment owners across Mumbai, Lonavala, Karjat and
-                    Pawna Lake, choosing only homes we would genuinely enjoy
-                    staying in ourselves.
+                    City Homes by Aashiyaanaa began in 2019, starting with our first flats in Jogeshwari. What began as a small hosting venture has since grown into a collection of thoughtfully managed city apartments and private villas across Mumbai and Lonavala.
                   </p>
 
                   <p className="mt-6 text-base md:text-lg leading-relaxed text-muted">
@@ -97,7 +92,7 @@ export default function AboutPage() {
               {/* Destination */}
               <div className="pb-10 sm:pb-0 sm:pr-10">
                 <p className="font-display text-5xl md:text-6xl text-brand-red leading-none">
-                  3
+                  4
                 </p>
 
                 <p className="mt-3 text-sm text-muted max-w-[200px]">
@@ -153,11 +148,11 @@ export default function AboutPage() {
 
                 <div className="mt-6">
                   <h3 className="font-display text-2xl">
-                    Atif Munshi
+                    Atif Munshi & Abid Munshi
                   </h3>
 
                   <p className="mt-1 text-sm text-muted">
-                    Founder · City Homes by Aashiyaanaa
+                    Founders · City Homes by Aashiyaanaa
                   </p>
                 </div>
               </div>

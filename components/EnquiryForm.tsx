@@ -77,7 +77,7 @@ function EnquiryFormInner({ property }: { property: Property }) {
         return;
       }
       setStatus("success");
-      e.currentTarget.reset();
+      //e.currentTarget.reset();
     } catch {
       setServerMessage("We couldn't reach the server. Please check your connection or use WhatsApp instead.");
       setStatus("error");

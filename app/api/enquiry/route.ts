@@ -4,7 +4,7 @@ import { verifyTurnstileToken } from "@/lib/turnstile";
 import { sendEnquiryNotification, sendGuestAcknowledgement } from "@/lib/resend";
 import { getPropertyBySlug } from "@/data/properties";
 
-export const runtime = "edge";
+//export const runtime = "edge";
 
 export async function POST(request: NextRequest) {
   let payload: unknown;

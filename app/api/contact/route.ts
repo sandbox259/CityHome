@@ -5,7 +5,7 @@ import { sendContactNotification, sendGuestAcknowledgement } from "@/lib/resend"
 
 // Edge runtime keeps this route compatible with the OpenNext Cloudflare
 // adapter — no Node-only APIs (fs, Buffer-heavy work, etc.) are used here.
-export const runtime = "edge";
+//export const runtime = "edge";
 
 export async function POST(request: NextRequest) {
   let payload: unknown;

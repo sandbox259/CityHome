@@ -1783,9 +1783,9 @@ export const properties: Property[] = [
     },
   },
   {
-  id: "premanand-villa",
-  slug: "premanand-villa-mohili-karjat",
-  name: "Premanand Villa — City Homes by Aashiyaanaa",
+  id: "karjat-villa",
+  slug: "karjat-villa",
+  name: "Karjat @7bhk Villa — City Homes by Aashiyaanaa",
   type: "villa",
   destination: "Karjat",
   shortLocation: "Mohili, Karjat",
@@ -1795,7 +1795,7 @@ export const properties: Property[] = [
   shortDescription:
     "A luxurious 7BHK private villa in Mohili, Karjat with a private pool, kids pool, jacuzzi, games, landscaped gardens and space for large groups.",
   description:
-    "Premanand Villa — City Homes by Aashiyaanaa is a luxurious 7BHK private villa in the scenic surroundings of Mohili, Karjat. Designed for families, friends, celebrations and corporate retreats, the villa features seven air-conditioned bedrooms, a private swimming pool with a kids pool, a large jacuzzi, a snooker table, foosball, a kids play area, landscaped gardens and a gazebo. Two spacious living rooms, an elegant dining area, high-speed Wi-Fi, Smart TVs, power backup and ample private parking make it well suited to large group stays. Daily housekeeping, caretaker assistance and meal packages are available for a comfortable, fully managed getaway.",
+    "Karjat @7bhk Villa — City Homes by Aashiyaanaa is a luxurious 7BHK private villa in the scenic surroundings of Mohili, Karjat. Designed for families, friends, celebrations and corporate retreats, the villa features seven air-conditioned bedrooms, a private swimming pool with a kids pool, a large jacuzzi, a snooker table, foosball, a kids play area, landscaped gardens and a gazebo. Two spacious living rooms, an elegant dining area, high-speed Wi-Fi, Smart TVs, power backup and ample private parking make it well suited to large group stays. Daily housekeeping, caretaker assistance and meal packages are available for a comfortable, fully managed getaway.",
 
   maxGuests: 16,
   bedrooms: 7,
@@ -1897,11 +1897,11 @@ export const properties: Property[] = [
   hasPool: true,
 
   whatsappMessage:
-    "Hi! I'd like to enquire about Premanand Villa by City Homes in Mohili, Karjat.",
+    "Hi! I'd like to enquire about Karjat @7bhk Villa by City Homes in Mohili, Karjat.",
 
   seo: {
     title:
-      "Premanand Villa — 7BHK Luxury Villa in Mohili, Karjat | City Homes by Aashiyaanaa",
+      "Karjat @7bhk Villa — 7BHK Luxury Villa in Mohili, Karjat | City Homes by Aashiyaanaa",
     description:
       "A luxury 7BHK villa in Mohili, Karjat with a private pool, kids pool, jacuzzi, games, landscaped gardens and premium amenities.",
   },

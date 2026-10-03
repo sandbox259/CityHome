@@ -8,7 +8,7 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "City Homes by Aashiyaanaa curates premium villas and city apartments across Mumbai, Lonavala, Karjat and Pawna Lake.",
+    "City Homes by Aashiyaanaa curates premium villas and city apartments across Mumbai, Karjat, Lonavala and Pawna Lake.",
   alternates: {
     canonical: "/about",
   },
@@ -65,7 +65,7 @@ export default function AboutPage() {
 
                 <div className="mt-10 max-w-xl">
                   <p className="text-base md:text-lg leading-relaxed text-muted">
-                    City Homes by Aashiyaanaa began in 2019, starting with our first flats in Jogeshwari. What began as a small hosting venture has since grown into a collection of thoughtfully managed city apartments and private villas across Mumbai and Lonavala.
+                    City Homes by Aashiyaanaa began in 2019, starting with our first flats in Jogeshwari. What began as a small hosting venture has since grown into a collection of thoughtfully managed city apartments and private villas across Mumbai, Karjat, Lonavala and Pawna Lake.
                   </p>
 
                   <p className="mt-6 text-base md:text-lg leading-relaxed text-muted">

@@ -41,7 +41,7 @@ const VISUAL_MOMENTS = [
 
 export default function HomePage() {
   const featured = getFeaturedProperties();
-  const pearl = getPropertyBySlug("premanand-villa-mohili-karjat");
+  const pearl = getPropertyBySlug("karjat-villa");
 
   return (
     <>
@@ -62,7 +62,7 @@ export default function HomePage() {
           <ScrollReveal variant="fade-up" delay={0.1}>
             <p className="mt-8 max-w-2xl mx-auto text-center text-base md:text-lg leading-relaxed text-muted">
               We curate a small, considered collection of villas and city
-              apartments across Mumbai, Lonavala, Pawna and Karjat  — each one
+              apartments across Mumbai, Karjat, Lonavala and Pawna Lake  — each one
               chosen for its design, its setting and the way it makes people
               feel the moment they walk in. No two homes in our collection look
               alike, and none of them feel like a hotel.
@@ -171,7 +171,7 @@ export default function HomePage() {
                   href={`/villas/${pearl.slug}`}
                   className="mt-8 inline-flex items-center gap-2 border border-white/60 text-white px-7 py-3.5 text-sm font-semibold uppercase tracking-wide hover:border-white transition-colors"
                 >
-                  Explore Premanand Villa <ArrowUpRight size={16} aria-hidden="true" />
+                  Explore Karjat @7bhk Villa <ArrowUpRight size={16} aria-hidden="true" />
                 </Link>
               </ScrollReveal>
             </div>
